@@ -4,4 +4,5 @@ module External.Sample
 
 import Adapter.Sample as AS
 
-sample = AS.sample
+sample = do
+    putStrLn AS.sample
